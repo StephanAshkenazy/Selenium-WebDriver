@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 18.845 s <<< FAILURE! - in TestSuite
+com.herokuapp.theinternet.NegativeTests.incorrectUsernameTest  Time elapsed: 0.004 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: VISTA
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'STEPHAN-HP', ip: '172.20.2.253', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '11.0.7'
+Driver info: driver.version: FirefoxDriver
+	at com.herokuapp.theinternet.NegativeTests.incorrectUsernameTest(NegativeTests.java:21)
+
